@@ -1,0 +1,19 @@
+body {
+    background-color: #fff1ca;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

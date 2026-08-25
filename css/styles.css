@@ -9,11 +9,17 @@ img {
 }
 
 a {
-    color: red;
+    color: blue;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+b {
+    color: maroon;
+    text-decoration: none;
+    font-size: 30px;
 }

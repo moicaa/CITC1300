@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+#container {
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: darkblue;
+}
+
+nav {
+    text-align: right;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: left;
+    font-size: 8px;
+    color: gray;
+}

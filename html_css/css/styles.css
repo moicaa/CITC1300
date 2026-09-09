@@ -20,9 +20,9 @@ header h1 {
     color: darkblue;
 }
 
-header h2 {
+h2 {
     font-size: 24px;
-    color: darkblue;
+    color: red;
 }
 
 header h3 {

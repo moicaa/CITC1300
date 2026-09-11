@@ -118,7 +118,7 @@ footer {
 }
 
 div iframe {
-    size: 50%;
+    resize: 50%;
     margin: 0 auto;
     background-color: gray;
     display:block;

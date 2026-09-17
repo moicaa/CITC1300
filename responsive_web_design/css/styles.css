@@ -101,6 +101,9 @@ footer {
 /* DESKTOP STYLES */
 
 @media (min-width: 1024px) {
+    .multi_col {
+        display: flex;
+    }
     #container {
         width: 50%;
         margin: 20px auto;

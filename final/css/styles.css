@@ -1,7 +1,7 @@
 /* GLOBAL STYLES */
 
 body {
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(15, 15, 15);
 }
 
 img {
@@ -84,7 +84,7 @@ h2, h3, h4 {
 
 footer {
     border-top: 2px solid black;
-    padding: 40px;
+    padding: 4px;
     font-size: 10px;
     text-align: center;
 }

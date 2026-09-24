@@ -1,0 +1,134 @@
+/* GLOBAL STYLES */
+
+body {
+    background-color: rgb(45, 45, 45);
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #F2D888;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin: 10px;
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: #260101;
+    color: white;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+nav li:nth-child(3) a {
+    width: 160px;
+}
+
+nav li a:hover {
+    background-color: black;
+    color:gray;
+}
+
+/* MOBILE STYLES */
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #400101;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #F2D888;
+    width: 90%;
+    margin: 10px auto;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: black;
+}
+
+.multi_col {
+    background-color: #F2D888;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* TABLET STYLES */
+
+footer {
+    border-top: 2px solid black;
+    padding: 40px;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (min-width: 786px) {
+    #upper {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .multi_col {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+/* DESKTOP STYLES */
+
+@media (min-width: 1024px) {
+    .multi_col {
+        display: flex;
+        margin: 20px auto;
+    }
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 65%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    #lower {
+        display: flex;
+    }
+}

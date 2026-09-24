@@ -1,7 +1,8 @@
-/* GLOBAL STYLES */
+/* GLOBAL */
 
 body {
-    background-color: rgb(15, 15, 15);
+    background:
+        radial-gradient(circle at 20% 20%, #260101, transparent 25%), black;
 }
 
 img {
@@ -35,9 +36,9 @@ nav li a {
     background-color: #260101;
     color: white;
     width: 100px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 10px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 15px;
 }
 
 nav li:nth-child(3) a {
@@ -49,7 +50,7 @@ nav li a:hover {
     color:gray;
 }
 
-/* MOBILE STYLES */
+/* MOBILE */
 
 #container {
     width: 80%;
@@ -63,8 +64,9 @@ header h1 {
     border: 2px solid black;
     border-radius: 10px;
     background-color: #F2D888;
-    width: 90%;
+    width: 40%;
     margin: 10px auto;
+    padding-block: 10px;
 }
 
 h2, h3, h4 {
@@ -80,7 +82,7 @@ h2, h3, h4 {
     margin: 10px;
 }
 
-/* TABLET STYLES */
+/* TABLET */
 
 footer {
     border-top: 2px solid black;
@@ -106,7 +108,7 @@ footer {
     }
 }
 
-/* DESKTOP STYLES */
+/* DESKTOP */
 
 @media (min-width: 1024px) {
     .multi_col {

@@ -18,7 +18,7 @@ nav {
     text-align: center;
     padding: 10px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #F2D888;
 }
 
@@ -56,13 +56,14 @@ nav li a:hover {
     width: 80%;
     margin: 0 auto;
     background-color: #400101;
+    border-radius: 10px;
 }
 
 header h1 {
     text-align: center;
     color: black;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #F2D888;
     width: 40%;
     margin: 10px auto;
@@ -78,7 +79,7 @@ h2, h3, h4 {
     background-color: #F2D888;
     padding: 20px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 10px;
 }
 
@@ -118,8 +119,8 @@ footer {
     #container {
         width: 80%;
         margin: 20px auto;
-        border: 2px solid black;
-        border-radius: 10px;
+        border: 4px solid black;
+        border-radius: 100px;
     }
 
     section {
